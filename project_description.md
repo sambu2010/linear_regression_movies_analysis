@@ -43,10 +43,10 @@ Results of regularization suggest that our Linear Model performs better than reg
 
 ## Tools
 
-Numpy and Pandas for data manipulation\n
-Sklearn for modeling\n
-Statsmodels for evaluating individual characteristics of the model\n
-Matplotlib and Seaborn for plotting\n
+- Numpy and Pandas for data manipulation\n
+- Sklearn for modeling\n
+- Statsmodels for evaluating individual characteristics of the model\n
+- Matplotlib and Seaborn for plotting\n
 
 ## Communication
 
