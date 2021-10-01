@@ -17,16 +17,25 @@ The final dataset used for modeling contains 917 movies with 6 features, 2 of wh
 
 ## Algorithm
 
-Data is splitted into train (80 percent) and test (20 percent) before dummy variables creation and feature engineering. Then 2 categorical fields transformed into binary dummy variables and model evaluated using Cross Validation. Initial Scores are: (0.50306615, 0.54855404, 0.53364658, 0.53056607, 0.49837769)
-Feature engineering is performed on the model. 5 features created: 3 polynomial terms and 2 interaction terms. Cross Validation is performed after each feature is created:
+Data is splitted into train (80 percent) and test (20 percent) before dummy variables creation and feature engineering. Then 2 categorical fields transformed into binary dummy variables and model evaluated using Cross Validation. 
+
+Initial Scores are: (0.50306615, 0.54855404, 0.53364658, 0.53056607, 0.49837769)
+Feature engineering is performed on the model. 5 features created: 3 polynomial terms and 2 interaction terms. Cross Validation is performed after each feature is created.
+
 Final Scores after feature engineering is done are: (0.65998075, 0.58696461, 0.70132508, 0.65017495, 0.64270971)
+
 Model fitted using Linear Regression. The score is 0.6937576010108419
 
-Testing - test data goes through the same process as train. Dummy variables created and initial scoring is done. The score before feature engineering - 0.5549083347918176
+Testing - test data goes through the same process as train. Dummy variables created and initial scoring is done. 
+
+The score before feature engineering - 0.5549083347918176
+
 The score after feature engineering - 0.679166035007529
 
 In attempt to improve results of our modeling regularization is performed. 
+
 Lasso - suggested alpha value is 0.01 score is 0.5298218155044118
+
 Ridge - suggested alpha value is 0.01 score is 0.5332018104674825
 
 Results of regularization suggest that our Linear Model performs better than regularized one. We will continue to use the Linear Model approach for this project.
