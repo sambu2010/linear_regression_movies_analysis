@@ -1,1 +1,1 @@
-# linear_regression_project for movie revenue prediction
+linear regression project for movie revenue prediction
