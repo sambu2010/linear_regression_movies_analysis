@@ -1,1 +1,1 @@
-linear regression project for movie revenue prediction
+# linear regression project for movie revenue prediction
