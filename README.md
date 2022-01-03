@@ -1,3 +1,1 @@
-# linear_regression_movies_analysis
-
-this repo is for linear regression web scraping project
+# linear_regression_project for movie revenue prediction
